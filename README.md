@@ -27,9 +27,9 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ---
 
-## 🛠️ Como Clonar, Instalar e Rodar
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/petmanager.git](https://github.com/seu-usuario/petmanager.git)
-   cd petmanager
+🛠️ Como Clonar, Instalar e RodarClone o repositório:  Bashgit clone https://github.com/seu-usuario/petmanager.git
+cd petmanager
+Crie e ative um ambiente virtual:  Bashpython -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+Instale as dependências:  Bashpip install -r requirements.txt
+Execute os testes automatizados:  Bashpytest
